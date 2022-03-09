@@ -1,0 +1,456 @@
+  
+  
+  
+  /* ------------------------- Gobal for site main key start (body+root+ main sec color selection) ------------------------ */
+  
+  
+  
+  
+  
+  body{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+p::selection{
+    background-color: black;
+}
+a{
+    text-decoration: none !important;
+}
+.letter-spacer{
+    letter-spacing: 1px;
+    
+}
+:root{
+    --main-color:  #00c3da;
+    --main-color-rgba:rgba(0, 195, 218, 0.8);
+
+    --second-color: #fff;
+} 
+
+.main-color{
+
+    color: var(--main-color);
+}
+.main-color-bg{
+    background-color: var(--main-color);
+}
+
+  /* ------------------------- Gobal for site main key end  (body+root+ main sec color selection) ------------------------ */
+
+
+
+
+/* ------------------------------ navbar start ------------------------------ */
+
+#nav-first{
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 99999999999999999999999;
+}
+#nav-first i{
+    transition: all 500ms;
+}
+#nav-first i:hover{
+color: rgb(8, 8, 8) !important; 
+}
+
+/* ------------------------------- navbar end ------------------------------- */
+
+
+
+/* ------------------------------ headre start ------------------------------ */
+
+
+ /* @keyframes for-bart-one {
+    0%{
+        content: "Create With Bezel.";
+        opacity: 0;
+        transform:skew(1,5);
+    transition: 1s all ease-in;
+    }
+    10%{
+        content: "Create With Bezel.";
+
+        opacity: 0.25;
+        transform:skew(1,5);
+    transition: 1s all ease-in;
+    }
+    20%{
+        content: "Create With Bezel.";
+
+        opacity: 0.35;
+        transform:skew(1,5);
+    transition: 1s all ease-in;
+    }
+    40%{
+        content: "Create With Bezel.";
+
+        opacity: 0.50;
+        transform:skew(1,5);
+    transition: 1s all ease-in;
+
+    }
+    60%{
+        content: "Create With Bezel.";
+
+        opacity: 0.80;
+        transform:skew(1,5);
+    transition: 1s all ease-in;
+
+    }
+    80%{
+        content: "Create With Bezel.";
+
+        opacity: 0.90;
+        transform:skew(1,5);
+    transition: 1s all ease-in;
+
+    }
+    100%{
+        content: "Create With Bezel.";
+
+        opacity: 1;
+        transform:skew(1,5);
+    transition: 1s all ease-in;
+
+    }
+}  */
+ 
+
+.for-h-w-btn{
+    width: 1800px;
+    height: 1800px;
+    text-align: center;
+}
+.btn-2-hover{
+    background-color: rgb(219, 211, 211,0.7);
+}
+.btn-2-hover:hover {
+    background-color: var(--second-color) !important;
+    transition: 0.5s;
+}
+
+/* ------------------------------- header end ------------------------------- */
+
+
+/* --------------------------- About section start -------------------------- */
+
+
+ .after-word::after{
+    content: "";
+
+    color: var(--main-color);
+animation: typing 4s  infinite;
+}
+@keyframes typing {
+2% {
+    content: "apps |";
+}
+
+4% {
+    content: " W |";
+}
+
+6% {
+    content: "We |";
+}
+
+8% {
+    content: "Web |";
+}
+
+10% {
+    content: "Webs |";
+}
+
+12% {
+    content: "Websi |";
+}
+
+14% {
+    content: "Websit |";
+}
+
+16% {
+    content: "website |";
+}
+
+18% {
+    content: "websites |";
+}
+
+20% {
+    content: "websites |";
+}
+
+22% {
+    content: "websites ";
+}
+
+24% {
+    content: "websites |";
+}
+
+26% {
+    content: "websites ";
+}
+
+28% {
+    content: "websites |";
+}
+
+30% {
+    content: "websites ";
+}
+
+32% {
+    content: " ";
+}
+
+34% {
+    content: "|";
+}
+
+36% {
+    content: " |";
+}
+
+38% {
+    content: "S |";
+}
+
+40% {
+    content: "So |";
+}
+
+42% {
+    content: "Sof |";
+}
+
+44% {
+    content: "Soft |";
+}
+
+46% {
+    content: "Softw |";
+}
+
+48% {
+    content: "Softwa |";
+}
+
+50% {
+    content: "Softwar |";
+}
+
+52% {
+    content: "Software |";
+}
+
+54% {
+    content: "Software |";
+}
+
+56% {
+    content: "Software ";
+}
+
+58% {
+    content: "Software |";
+}
+
+60% {
+    content: "Software ";
+}
+
+62% {
+    content: "Software |";
+}
+
+64% {
+    content: " ";
+}
+
+66% {
+    content: "|";
+}
+
+68% {
+    content: " |";
+}
+
+70% {
+    content: "|";
+}
+
+72% {
+    content: "A |";
+}
+
+74% {
+    content: "AP|";
+}
+
+76% {
+    content: "AP |";
+}
+
+78% {
+    content: "APP|";
+}
+
+80% {
+    content: "APP |";
+}
+
+82% {
+    content: "APP|";
+}
+
+84% {
+    content: "APP |";
+}
+
+86% {
+    content: "APPS|";
+}
+
+88% {
+    content: "APPS |";
+}
+
+90% {
+    content: "APPS |";
+}
+
+92% {
+    content: "APPS ";
+}
+
+94% {
+    content: "APPS |";
+}
+
+96% {
+    content: "APPS ";
+}
+
+98% {
+    content: "APPS |";
+}
+
+100% {
+    content: "APPS ";
+}
+
+
+
+
+}
+
+#About:hover button {
+    background-color: black ;
+    color: white;
+}
+/* ---------------------------- About section end --------------------------- */
+
+/* ----------------------- creative team section start ---------------------- */
+
+.img-hover{
+   opacity: 0;
+    transition: 0.5s;
+}
+.img-hover:hover img-icon{
+    background-color: var(--main-color);
+
+    opacity: 1;
+    top: 0%;
+    
+}
+
+
+
+#creative-team .work 
+{
+    margin-bottom: 15px;
+}
+#creative-team .work img
+{
+    transition: 0.5s;
+}
+
+#creative-team .work .work-layer
+{
+    top: 0;
+    left: 0;
+background-color: var(--main-color-rgba);
+    opacity: 0;
+    transition: 0.5s;
+}
+#creative-team .work:hover .work-layer
+{
+    opacity: 1;
+}
+#creative-team .work .work-layer .work-layer-content
+{
+    position: relative;
+        transition: 0.5s;
+        top: 50px;
+    width: 100%;
+}
+#creative-team .work:hover .work-layer .work-layer-content
+{
+top: 30%;
+right: 20%;
+}
+
+/* ------------------------ creative team section end ----------------------- */
+
+
+/* ----------------------------- pricing section start ---------------------------- */
+
+.bestvlue-header{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    background-color: var(--main-color);
+    color:white;
+
+}
+
+/* ----------------------------- pricing section end ---------------------------- */
+
+
+/* ------------------------- slider testmonial start ------------------------ */
+
+
+#testmonial img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.carousel-indicators{
+    width: 100%;
+    margin:auto;
+}
+#testmonial .carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+height: 10px;
+width: 10px;
+background-color: var(--main-color-rgba);
+transition: 500ms all ease-in-out ;
+
+}
+#testmonial .carousel-indicators [data-bs-target]:hover{
+background-color: var(--main-color);
+}
+#testmonial .carousel-inner{
+    width: 100%;
+    margin: auto;
+}
+  
+
+/* ------------------------- slider testmonial end ------------------------ */
